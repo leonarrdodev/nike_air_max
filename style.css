@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+/*barra lateral*/
+body aside{
+    background-color: #303236;
+    height: 100vh;
+    width: 15vw;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+aside p{
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+/*conteudo principal*/
+body #container-principal{
+    padding: 3% 7%;
+    background: rgba(1,0,10,1);
+    width: 85vw;
+}
+
+nav{
+    width: 70%;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.sub-section{
+    width: 50%;
+}
+
+/*textos e titulos*/
+h1{
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+}
+
+h2{
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+
+}
+
+h3{
+    font-family: "Dosis", sans-serif;
+    font-size: 1.5rem;
+    margin: 2.4rem 0;
+}
+
+p{
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+
+.sub-section #img-product{
+    width: 110%;
+}
+
+/*botão add carrinho*/
+button{
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 2% 3%;
+    border-radius: 20px;
+    background-color: #303236;
+    border: none;
+    margin: 2rem 0;
+    cursor: pointer;
+}
